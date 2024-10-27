@@ -38,6 +38,7 @@
  .card{
     border-radius: 3%;
     border: 0;
+    background-color: #fff;
  }
 
  .card-title{
@@ -49,4 +50,9 @@
   text-align: left;
   color: white;
  }
+ .nav{
+  padding: 20px;
+ }
+
+ 
   

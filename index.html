@@ -30,23 +30,15 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
-          
-          <div class="offcanvas-body>
-            <img src="IMG/logo.png" alt="Logo" width="100" height="100" class="d-inline-block align-items-start">
-
-            <ul class="navbar-nav flex-grow-1 justify-content-between">
-              <li class="nav-item"><a class="nav-link" href="#">
-                <svg class="bi" width="24" height="24"><use xlink:href="#aperture"/></svg>
-              </a></li>
+          <div class="offcanvas-body">
+            <!-- <img src="IMG/logo.png" alt="Logo" width="100" height="100" class="d-inline-block align-items-start"> -->
+            <ul class="navbar-nav flex-grow-1 justify-content-between ">
               <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
               <li class="nav-item"><a class="nav-link" href="#">About</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">
-                <svg class="bi" width="24" height="24"><use xlink:href="#cart"/></svg>
-              </a></li>
             </ul>
           </div>
         </div>
@@ -63,93 +55,263 @@
           <img src="IMG/banner_2.png" class="d-block w-100" alt="...">
         </div>
         <div class="swiper-slide">
-          <img src="IMG/banner_1.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="swiper-slide">
-          <img src="IMG/banner_2.png" class="d-block w-100" alt="...">
+          <img src="IMG/banner_3.png" class="d-block w-100" alt="...">
         </div>
       </div>
       <div class="swiper-pagination"></div>
     </div>
 
-    <!-- cards -->
-         <div class="swiper mySwiper2 p-5">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="card" style="width: 18rem;">
-            <img src="IMG/card_1.png" class="card-img-top" alt="...">
-            <div class="card-body bg-secondary">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="card" style="width: 18rem;">
-            <img src="IMG/card_1.png" class="card-img-top" alt="...">
-            <div class="card-body bg-secondary">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="card" style="width: 18rem;">
-            <img src="IMG/card_1.png" class="card-img-top" alt="...">
-            <div class="card-body bg-secondary">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="card" style="width: 18rem;">
-            <img src="IMG/card_1.png" class="card-img-top" alt="...">
-            <div class="card-body bg-secondary">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="card" style="width: 18rem;">
-            <img src="IMG/card_1.png" class="card-img-top" alt="...">
-            <div class="card-body bg-secondary">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="card" style="width: 18rem;">
-            <img src="IMG/card_1.png" class="card-img-top" alt="...">
-            <div class="card-body bg-secondary">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="card" style="width: 18rem;">
-            <img src="IMG/card_1.png" class="card-img-top" alt="...">
-            <div class="card-body bg-secondary">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="card" style="width: 18rem;">
-            <img src="IMG/card_1.png" class="card-img-top" alt="...">
-            <div class="card-body bg-secondary">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-        </div>
+    <!-- tabs -->
+    <nav>
+      <div class="nav nav-pills" id="nav-pills" role="tablist">
+        <button class="nav-link active" id="nav-new-tab" data-bs-toggle="tab" data-bs-target="#nav-new" type="button" role="tab" aria-controls="nav-new" aria-selected="true">New Arrivals</button>
+        <button class="nav-link" id="nav-shirts-tab" data-bs-toggle="tab" data-bs-target="#nav-shirts" type="button" role="tab" aria-controls="nav-shirts" aria-selected="false">Shirts</button>
+        <button class="nav-link" id="nav-caps-tab" data-bs-toggle="tab" data-bs-target="#nav-caps" type="button" role="tab" aria-controls="nav-caps" aria-selected="false">Caps</button>
+
       </div>
-      <div class="swiper-pagination"></div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <!-- new arrivals -->
+      <div class="tab-pane fade show active" id="nav-new" role="tabpanel" aria-labelledby="nav-new-tab" tabindex="0">
+        <div class="swiper mySwiper2 p-5">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_3.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_3.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_3.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_3.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_3.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_3.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_3.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_3.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+      </div>
+      <!-- shirts -->
+      <div class="tab-pane fade" id="nav-shirts" role="tabpanel" aria-labelledby="nav-shirts-tab" tabindex="0">
+        <div class="swiper mySwiper2 p-5">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_1.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_1.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_1.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_1.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_1.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_1.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_1.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_1.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+      </div>
+      <!-- caps -->
+      <div class="tab-pane fade" id="nav-caps" role="tabpanel" aria-labelledby="nav-caps-tab" tabindex="0">
+        <div class="swiper mySwiper2 p-5">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_4.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_4.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_4.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_4.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_4.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_4.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_4.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card" style="width: 18rem;">
+                <img src="IMG/card_4.png" class="card-img-top" alt="...">
+                <div class="card-body bg-secondary">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+      </div>
+    </div>
    
     <!-- jumbotron -->
     <div class="jumbotron position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center ">
@@ -213,10 +375,6 @@
         </div>
       </div>
       </div>
-  
-  
- 
-  
 
   <!-- form -->
     <div class="container col-xl-10 col-xxl-8 px-4 py-5">
