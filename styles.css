@@ -1,16 +1,4 @@
-/* main{
-    background-image: linear-gradient(to top, grey, white);
-} */
 
-/* .jumbotron {
-    background-image: url(IMG/10.png);
-} */
-
-.col h5{
-    font-size: 75px;
-    color: white;
-    font-weight: 100;
-}
 .row{
     padding-bottom: 200px;
 }
@@ -54,5 +42,15 @@
   padding: 20px;
  }
 
- 
-  
+ .featurette{
+    padding:10px;
+ }
+
+ .featurette-heading{
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+ }
+ .lead{
+    color: #fff;
+ }
